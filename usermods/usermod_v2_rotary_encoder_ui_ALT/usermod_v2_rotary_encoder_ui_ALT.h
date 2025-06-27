@@ -1094,7 +1094,7 @@ void RotaryEncoderUIUsermod::addToConfig(JsonObject &root) {
   top[FPSTR(_presetLow)]  = presetLow;
   top[FPSTR(_presetHigh)] = presetHigh;
   top[FPSTR(_applyToAll)] = applyToAll;
-  top[FPSTR(_HalfStep)] = HalfStep
+  top[FPSTR(_HalfStep)] = HalfStep;
   DEBUG_PRINTLN(F("Rotary Encoder config saved."));
 }
 
